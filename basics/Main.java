@@ -27,7 +27,7 @@ public class Main {
         
         int numHeads = 0;
         int totalNumFlips = 0;
-        do {
+        while (numHeads < n) {
             double result = f.nextDouble();
             if (result > 0.5) {
                 System.out.println ("heads");
@@ -38,7 +38,7 @@ public class Main {
                 totalNumFlips++;
                 numHeads = 0;
             }
-        } while (numHeads < n);
+        } 
         System.out.println("It took " + totalNumFlips + " flips to flip " + n + " heads in a row");
     }
 
