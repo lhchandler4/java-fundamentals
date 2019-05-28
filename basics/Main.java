@@ -11,7 +11,7 @@ public class Main {
         flipNHeads(10);
 
         clock();
-        
+
     }
 
     public static void pluralize(String x, int y) {
@@ -42,16 +42,27 @@ public class Main {
         System.out.println("It took " + totalNumFlips + " flips to flip " + n + " heads in a row");
     }
 
-    public static void clock() {
+    // public static void clock() {
+    //     while(true){
+    //         LocalDateTime now = LocalDateTime.now();
+    //         String time = now.format(DateTimeFormatter.ofPattern("HH:mm:ss"));
+    //         System.out.println(time);
+    //         try{
+    //             Thread.sleep(1000);
+    //         } catch(InterruptedException ex) {
+    //             Thread.currentThread().interrupt();
+    //         }
+    //     }
+    // }
+
+    public static void clock(){
+        LocalDateTime previousPrintLineTime = LocalDateTime.now();
         while(true){
-            LocalDateTime now = LocalDateTime.now();
-            String time = now.format(DateTimeFormatter.ofPattern("HH:mm:ss"));
-            System.out.println(time);
-            try{
-                Thread.sleep(1000);
-            } catch(InterruptedException ex) {
-                Thread.currentThread().interrupt();
-            }
+          LocalDateTime currentPrintLineTime = LocalDateTime.now();
+        if(previousPrintLineTime.getSecond() != currentPrintLineTime.getSecond()){
+          previousPrintLineTime = currentPrintLineTime;
+          System.out.println(currentPrintLineTime.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
+          }
         }
     }
 }
