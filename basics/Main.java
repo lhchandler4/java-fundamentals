@@ -1,8 +1,8 @@
 import java.util.Random;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-public class Main {
 
+public class Main {
     public static void main(String[] args) {
         pluralize("dog", 1);
         pluralize("cat", 2);
@@ -11,6 +11,7 @@ public class Main {
         flipNHeads(10);
 
         clock();
+        
     }
 
     public static void pluralize(String x, int y) {
