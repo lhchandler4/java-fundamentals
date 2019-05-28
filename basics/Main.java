@@ -58,10 +58,10 @@ public class Main {
     public static void clock(){
         LocalDateTime previousPrintLineTime = LocalDateTime.now();
         while(true){
-          LocalDateTime currentPrintLineTime = LocalDateTime.now();
+            LocalDateTime currentPrintLineTime = LocalDateTime.now();
         if(previousPrintLineTime.getSecond() != currentPrintLineTime.getSecond()){
-          previousPrintLineTime = currentPrintLineTime;
-          System.out.println(currentPrintLineTime.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
+            previousPrintLineTime = currentPrintLineTime;
+            System.out.println(currentPrintLineTime.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
           }
         }
     }
