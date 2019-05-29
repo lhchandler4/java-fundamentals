@@ -49,4 +49,17 @@ public class Lab2 {
 
         return arrArr[lowestAvg];
     }
+
+    public int[] lowestAverage (int[][] arrs) {
+        int[] ans = arrs[0];
+        float minAvg = avgCalc(arrs[0]);
+        for (int i = 1; i < arrs.length; i++) {
+            float currentAverage = avgCalc(arrs[i]);
+            if (currentAverage < minAvg) {
+                minAvg = currentAverage;
+                ans = arrs[i];
+            }
+        }
+        return ans;
+    }
 }

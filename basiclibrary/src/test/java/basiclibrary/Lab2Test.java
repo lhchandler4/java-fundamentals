@@ -44,5 +44,15 @@ public class Lab2Test {
         assertFalse("should return the average '5.4'", lab2test.avgCalc(new int[] {1,2,3,17,4}) == 5.4);
     }
 
-
+    @Test
+    public void testLowestAverage() {
+        int[][] testInput = new int[][]{
+                {1,1,1},
+                {2,2,2},
+                {3,3,3}
+        };
+        int[] expectedOutput = testInput[0];
+        Lab2 lab2test = new Lab2();
+        assertEquals("should return the array with the smalles average", expectedOutput, lab2test.lowestAverage(testInput));
+    }
 }
