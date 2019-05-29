@@ -38,5 +38,11 @@ public class Lab2Test {
         assertEquals( "should return the average of '5.4'", lab2test.avgCalc(new int[]{1, 2, 3, 17, 4}), (float) 5.4, 0);
     }
 
+    @Test
+    public void test_lab2_average_check_false(){
+        Lab2 lab2test = new Lab2();
+        assertFalse("should return the average '5.4'", lab2test.avgCalc(new int[] {1,2,3,17,4}) == 5.4);
+    }
+
     
 }
