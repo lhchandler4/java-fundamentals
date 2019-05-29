@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7510b2b-015c-45c2-8605-ed32cc7b0f77" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/basiclibrary/Lab2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basiclibrary/Lab2Test.java" afterDir="false" />
-    </list>
+    <list default="true" id="b7510b2b-015c-45c2-8605-ed32cc7b0f77" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
