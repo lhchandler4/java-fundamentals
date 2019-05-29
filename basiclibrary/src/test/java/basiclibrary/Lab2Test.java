@@ -44,5 +44,5 @@ public class Lab2Test {
         assertFalse("should return the average '5.4'", lab2test.avgCalc(new int[] {1,2,3,17,4}) == 5.4);
     }
 
-    
+
 }
