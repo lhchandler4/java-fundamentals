@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="basiclibrary.Lab2Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-29T20:54:53" hostname="186590ce28cb.ant.amazon.com" time="0.004">
+  <properties/>
+  <testcase name="testLowestAverage" classname="basiclibrary.Lab2Test" time="0.004"/>
+  <system-out><![CDATA[1.0
+2.0
+3.0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
