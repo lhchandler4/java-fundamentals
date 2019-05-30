@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7510b2b-015c-45c2-8605-ed32cc7b0f77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-exported-files.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basiclibrary/Lab3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basiclibrary/Lab3Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="b7510b2b-015c-45c2-8605-ed32cc7b0f77" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -52,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/basiclibrary/Lab3Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="473">
+              <caret line="40" column="150" selection-start-line="40" selection-start-column="150" selection-end-line="40" selection-end-column="150" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -92,8 +84,8 @@
         <option value="$PROJECT_DIR$/src/main/java/basiclibrary/Lab2.java" />
         <option value="$PROJECT_DIR$/src/test/java/basiclibrary/Lab2Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/basiclibrary/Lab3.java" />
-        <option value="$PROJECT_DIR$/src/test/java/basiclibrary/Lab3Test.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/basiclibrary/Lab3Test.java" />
       </list>
     </option>
   </component>
@@ -119,48 +111,6 @@
               <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
               <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="basiclibrary" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="basiclibrary" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -303,9 +253,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Lab2Test_test_true_arrayAverage - 2019.05.29 at 13h 11m 46s.xml">
-      <configuration name="Lab2Test.test_true_arrayAverage" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="Lab2Test_test_lab2_average_check_false - 2019.05.29 at 13h 13m 25s.xml">
       <configuration name="Lab2Test.test_lab2_average_check_false" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -333,10 +280,12 @@
     <history-entry file="Lab3Test_testTallyVotes - 2019.05.30 at 13h 06m 58s.xml">
       <configuration name="Lab3Test.testTallyVotes" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Lab3Test - 2019.05.30 at 13h 11m 30s.xml">
+      <configuration name="Lab3Test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -349,7 +298,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32956153" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -423,8 +372,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/basiclibrary/Lab3Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="473">
+          <caret line="40" column="150" selection-start-line="40" selection-start-column="150" selection-end-line="40" selection-end-column="150" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -433,8 +382,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
