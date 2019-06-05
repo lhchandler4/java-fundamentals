@@ -34,10 +34,6 @@ public class Restaurant {
         return cummulStars;
     }
 
-    public double getNumberOfStars() {
-        return numberOfStars;
-    }
-
     public String getPriceCategory() {
         return priceCategory;
     }
