@@ -4,21 +4,30 @@ public class Review {
     private String author;
     private double numberOfStarsR;
     private String body;
-    private String restaurant;
+    private String business;
+    private String movieName;
 
-    public Review(String author, double numberOfStarsR, String body, String restaurant) {
+    public Review(String author, double numberOfStarsR, String body, String business) {
         this.author = author;
         this.numberOfStarsR = numberOfStarsR;
         this.body = body;
-        this.restaurant = restaurant;
+        this.business = business;
+    }
+
+    public Review(String author, double numberOfStarsR, String body, String business, String movieName) {
+        this.author = author;
+        this.numberOfStarsR = numberOfStarsR;
+        this.body = body;
+        this.business = business;
+        this.movieName = movieName;
     }
 
     public String getAuthor() {
         return author;
     }
 
-    public String getRestaurant() {
-        return restaurant;
+    public String getBusiness() {
+        return business;
     }
 
     public double getNumberOfStarsR() {
@@ -30,6 +39,6 @@ public class Review {
     }
 
     public String toString() {
-        return String.format("%s reviewed this restaurant and give it a review of %.1f. This is what they had to say: %s", this.author, this.numberOfStarsR, this.body);
+        return String.format("%s reviewed this business and give it a review of %.1f. This is what they had to say: %s", this.author, this.numberOfStarsR, this.body);
     }
 }

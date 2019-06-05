@@ -21,9 +21,9 @@ public class RestaurantTest {
     }
 
     @Test
-    public void test_Add_Two_Review() {
+    public void test_Add_Two_Reviews() {
         Review p = new Review("Ben", 1.8, "Gross", "Bennigans");
-        Review m = new Review("Arthur", 2.3, "Eh", "Bennigans");
+        Review m = new Review("Tom", 2.3, "Eh", "Bennigans");
         Restaurant b = new Restaurant("Bennigans", 3.9, "$");
         b.addReview(p);
         b.addReview(m);
@@ -33,7 +33,7 @@ public class RestaurantTest {
     @Test
     public void test_Add_Two_Diff_Rest_Reviews() {
         Review p = new Review("Ben", 1.8, "Gross", "Bennigans");
-        Review m = new Review("Arthur", 2.3, "Eh", "Subway");
+        Review m = new Review("Arthur", 4.1, "Pretty good", "Subway");
         Restaurant b = new Restaurant("Bennigans", 3.9, "$");
         b.addReview(p);
         b.addReview(m);
@@ -41,11 +41,4 @@ public class RestaurantTest {
     }
 
 
-//    @Test
-//    public void test_Add_Review() {
-//        Review p = new Review("Ben", 1.8, "Gross", "Bennigans");
-//        Restaurant b = new Restaurant("Bennigans", 3.9, "$");
-//        b.addReview(p);
-//        assertFalse("new number of stars shouldn't be 3.9", );
-//    }
 }
