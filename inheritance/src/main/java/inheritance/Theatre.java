@@ -47,11 +47,11 @@ public class Theatre {
             this.cummulStars = getCummulStars() + currentRating;
             this.avgRating = getCummulStars() / getCummulReviews();
         }else {
-            System.out.println("Shops are not a match");
+            System.out.println("The businesses are not a match");
         }
     }
 
     public String toString() {
-        return String.format("A theatre named %s has a review average of %.1f out of %d reviews. This theatre is showing ", this.name, this.avgRating, this.cummulReviews, Arrays.toString(this.movies.toArray()));
+        return String.format("A theatre named %s has a review average of %.1f out of %d reviews. This theatre is showing %s", this.name, this.avgRating, this.cummulReviews, Arrays.toString(this.movies.toArray()));
     }
 }
