@@ -13,6 +13,6 @@ public class ReviewTest {
     @Test
     public void test_toString_Review() {
         Review l = new Review("Bart", 3.1, "I was not impressed by this restaurant", "Olive Garden");
-        assertEquals("Returns the String", "Bart reviewed this restaurant and give it a review of 3.1. This is what they had to say: I was not impressed by this restaurant", l.toString());
+        assertEquals("Returns the String", "Bart reviewed this business and give it a review of 3.1. This is what they had to say: I was not impressed by this restaurant", l.toString());
     }
 }
